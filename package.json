@@ -1,0 +1,30 @@
+{
+  "name": "first_react_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json} \" ",
+    "lint": "eslint --fix \"**/*.{js,jsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canes6288/first_react_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canes6288/first_react_app/issues"
+  },
+  "homepage": "https://github.com/canes6288/first_react_app#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.2"
+  }
+}
