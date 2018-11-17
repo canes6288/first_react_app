@@ -3,12 +3,15 @@ import { render } from 'react-dom';
 import { Router } from '@reach/router';
 import Results from './Results';
 import Details from './Details';
+import { Link } from '@reach/router';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Adopt Me!</h1>
+        <header>
+          <Link to="/">Adopt Me!</Link>
+        </header>
         <Router>
           <Results path="/" />
           <Details path="/details/:id" />
